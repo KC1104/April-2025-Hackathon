@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    overflow-x: hidden;
+}
+body{
+    background-color: #192116;
+}
+ul{
+    list-style: none;
+}
+.Home{
+    height: 750px;
+    background: url(home\ background.jpeg);
+    color: aliceblue;
+}
+.nav-container{
+    position: relative;
+    top: 10px;
+    backdrop-filter: blur(2px);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+    height: 50px;
+}
+/*
+.nav-container{
+    margin: auto;
+    background: url(nav\ bg\ 2.jpeg);
+    background-repeat: no;
+    height: 100px;
+    width: 98vw;
+    border-radius: 5px;
+}
+    */
+nav{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+    gap: 25px;
+}
+nav >ul{
+    display: flex;
+    list-style: none;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 35px;
+    color: #f7994c;
+}
+
+.content{
+    position: relative;
+    top: 230px;
+    left: 250px;
+    display: flex;
+    gap: 260px;
+}
+.heading{
+    font-size: 65px;
+}
+.main-heading p{
+    text-align: center;
+    color: #b59474;
+    font-family: "Volkhov";
+}
+.home-ul{
+    font-size: 30px;
+    position: relative;
+    top: -57px;
+    font-family: "Labrada";
+}
+.home-ul>li{
+    margin: 10px;
+}
+li > p{
+    display: inline-block;
+    position: relative;
+    top: -25px;
+}
+.li-2{
+    position: relative;
+    left: 60px;
+}
+.home2{
+    background: url(Section\ 2\ bg.jpg);
+    height: 1000px;
+}
